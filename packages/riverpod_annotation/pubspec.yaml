@@ -3,6 +3,7 @@ description: A package exposing annotations for riverpod_generator
 version: 2.3.5
 repository: https://github.com/rrousselGit/riverpod
 issue_tracker: https://github.com/rrousselGit/riverpod/issues
+publish_to: 'none'
 funding:
   - https://github.com/sponsors/rrousselGit/
 
@@ -11,7 +12,8 @@ environment:
 
 dependencies:
   meta: ^1.7.0
-  riverpod: 2.5.1
+  riverpod:
+    path: ../riverpod
 
 dev_dependencies:
   test: ^1.21.0
