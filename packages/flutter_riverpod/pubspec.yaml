@@ -18,7 +18,8 @@ dependencies:
   flutter:
     sdk: flutter
   meta: ^1.4.0
-  riverpod: 2.5.1
+  riverpod:
+    path: ../riverpod
   state_notifier: ">=0.7.2 <2.0.0"
 
 dev_dependencies:
